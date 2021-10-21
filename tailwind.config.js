@@ -11,6 +11,7 @@ module.exports = {
       'ibm-plex-sans-thai': ['ibm-plex-sans-thai'],
     },
     screens: {
+      xx: "400px",
       xs: "540px",
       ...defaultTheme.screens,
     },

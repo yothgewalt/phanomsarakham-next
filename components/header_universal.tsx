@@ -20,7 +20,7 @@ const Header: React.FunctionComponent<{ publisher: string }> = (props) => {
     });
 
     return (
-        <header className="w-full mb-10 h-16 border-b bg-transparent">
+        <header className="fixed inset-x-0 top-0 w-full h-16 border-b bg-white z-50">
             <Container>
                 <div className="h-full hidden flex-row flex-nowrap justify-between items-center outline-none lg:flex">
                     <Link href={{ pathname: "/"}}>
@@ -52,7 +52,7 @@ const Header: React.FunctionComponent<{ publisher: string }> = (props) => {
                         )} aria-label="Menu">
                             <MenuIcon className="w-4 sm:w-5 text-gray-900" aria-hidden="true" />
                         </Menu.Button>
-                        <Menu.Items className="block w-full h-screen fixed top-16 left-0 border-t outline-none bg-gray-50">
+                        <Menu.Items className="block w-full h-screen fixed top-16 left-0 border-t outline-none z-50 bg-gray-50">
                             <Container>
                                 <div className="w-full h-full flex flex-col justify-start items-center font-medium text-sm">
                                     {navlinksResponsivedElements}

@@ -18,7 +18,7 @@ const Footer: React.FunctionComponent<{}> = () => {
     });
 
     return (
-        <footer className="w-full mt-10 pt-8 h-[812px] xs:h-[542px] lg:h-[428px] fixed inset-x-0 bottom-0 bg-black text-white">
+        <footer className="w-full pt-8 h-[812px] xs:h-[542px] lg:h-[428px] bg-black text-white">
             <Container>
                 <div className="h-full relative">
                     <div className="absolute inset-x-0 top-0 grid grid-rows-1 xs:grid-cols-2 lg:grid-cols-4 gap-4 justify-items-start xs:justify-items-center">
