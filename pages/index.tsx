@@ -1,6 +1,6 @@
 import Header from "../components/header_universal";
 import Footer from "../components/footer_universal";
-import Gallery from "../components/environments/@landing_page/gallery_starter_landing_page";
+import Gallery from "../components/environments/@hero_headers/gallery_hero_header";
 
 const Index: React.FunctionComponent<{}> = () => {
     return (

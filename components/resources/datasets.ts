@@ -51,3 +51,36 @@ export const ResourcesLinks: { label: string, href: string }[] = [
     { label: "ระบบเครือข่ายเบื้องต้น", href: "/" },
     { label: "การออกแบบเบื้องต้น", href: "/" },
 ];
+
+export const GalleryDetails: { imageSource, objectPosition, referenceObject: string }[] = [
+    {
+        imageSource: "/images/senior_planting.webp",
+        objectPosition: "40% 50%",
+        referenceObject: "SENIOR_PLANTING"
+    },
+    {
+        imageSource: "/images/put_your_hands_up.webp",
+        objectPosition: "50% 45%",
+        referenceObject: "PUT_YOUR_HANDS_UP"        
+    },
+    {
+        imageSource: "/images/robot_dancing.webp",
+        objectPosition: "50% 40%",
+        referenceObject: "ROBOT_DANCING"        
+    },
+    {
+        imageSource: "/images/junior_with_thumbup.webp",
+        objectPosition: "52% 50%",
+        referenceObject: "JUNIOR_WITH_THUMBUP"        
+    },
+    {
+        imageSource: "/images/two_girls_in_front_building.webp",
+        objectPosition: "50% 50%",
+        referenceObject: "TWO_GIRLS_IN_FRONT_BUILDING"        
+    },
+    {
+        imageSource: "/images/the_flowers.webp",
+        objectPosition: "50% 50%",
+        referenceObject: "THE_FLOWERS"        
+    }
+];

@@ -1,14 +1,11 @@
 import Link from "next/link";
 import Navlinks from "./contexts/navlinks_universal";
 import Container from "./container_universal";
+import classNames from "./utils/classNames";
 import NavlinksResponsived from "./contexts/navlinks_responsived_universal";
 import * as Datasets from "./resources/datasets";
 import { Menu } from "@headlessui/react";
 import { LightningBoltIcon, MenuIcon, GlobeIcon } from "@heroicons/react/solid";
-
-function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-}
 
 const Header: React.FunctionComponent<{ publisher: string }> = (props) => {
     const navlinksElements = Datasets.Navlinks.map((item, index) => {
