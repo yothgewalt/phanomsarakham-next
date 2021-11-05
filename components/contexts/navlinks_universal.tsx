@@ -60,12 +60,12 @@ const Navlinks: React.FunctionComponent<{ href: string, label: string, hasDropdo
                                                 className="flow-root px-2 py-2 transition duration-150 ease-in-out rounded-md hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
                                             >
                                                 <span className="flex items-center">
-                                                    <span className="text-sm font-medium text-gray-900">
-                                                        Documentation
+                                                    <span className="font-ibm-plex-sans-thai text-sm font-medium text-gray-900">
+                                                        รวมหมวดหมู่รูปภาพ
                                                     </span>
                                                 </span>
-                                                <span className="block text-sm text-gray-500">
-                                                    Start integrating products and tools
+                                                <span className="block font-ibm-plex-sans-thai text-sm text-gray-500">
+                                                    รวบรวมหมวดหมู่รูปภาพทั้งสามหมวดไว้ในหน้าเดียว
                                                 </span>
                                             </a>
                                         </div>

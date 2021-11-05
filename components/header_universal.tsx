@@ -17,7 +17,7 @@ const Header: React.FunctionComponent<{ publisher: string }> = (props) => {
     });
 
     return (
-        <header className="fixed inset-x-0 top-0 w-full h-16 border-b bg-white z-50">
+        <header className="fixed inset-x-0 top-0 w-full h-16 border-b drop-shadow-sm bg-white z-50">
             <Container>
                 <div className="h-full hidden flex-row flex-nowrap justify-between items-center outline-none lg:flex">
                     <Link href={{ pathname: "/"}}>
@@ -65,6 +65,9 @@ const Header: React.FunctionComponent<{ publisher: string }> = (props) => {
                                             <GlobeIcon className="w-4" aria-hidden="true" />&nbsp;
                                             <span>Visit to faculty fanpage</span>
                                         </a>
+                                    </Menu.Item>
+                                    <Menu.Item>
+                                        <span className="mt-4 font-medium text-center text-xs sm:text-sm lg:text-base text-gray-500">&copy; Phanomsarakham Technical College, Faculty of Technology. All rights reserved.</span>
                                     </Menu.Item>
                                 </div>
                             </Container>

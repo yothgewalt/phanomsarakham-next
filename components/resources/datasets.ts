@@ -1,4 +1,4 @@
-import { CollectionIcon, FingerPrintIcon, FlagIcon } from "@heroicons/react/outline";
+import { CollectionIcon, FingerPrintIcon, FlagIcon, CodeIcon, ChipIcon, FilmIcon, ServerIcon } from "@heroicons/react/outline";
 
 export const Navlinks: { label: string, href: string, hasDropdown: boolean }[] = [
     { label: "Why We", href: "/", hasDropdown: false },
@@ -29,19 +29,19 @@ export const PopoverLinks: { label: string, icon: any, href: string, description
         label: LabelForPopover[0],
         icon: CollectionIcon,
         href: "/",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        description: "รวมรูปภาพกิจกรรมของวิทยาลัยที่สาขาวิชาเรามีส่วนร่วมในการดําเนินงาน"
     },
     {
         label: LabelForPopover[1],
         icon: FingerPrintIcon,
         href: "/",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        description: "รวมรูปภาพกิจกรรมของสาขาวิชาเราทุกประเภทที่เกี่ยวข้องกับเรา"
     },
     {
         label: LabelForPopover[2],
         icon: FlagIcon,
         href: "/",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        description: "รวมรูปภาพการแข่งขันของนักเรียนนักศึกษาของเราที่ได้เข้าร่วมการแข่งขัน"
     }
 ];
 
@@ -52,7 +52,7 @@ export const ResourcesLinks: { label: string, href: string }[] = [
     { label: "การออกแบบเบื้องต้น", href: "/" },
 ];
 
-export const GalleryDetails: { imageSource, objectPosition, referenceObject: string }[] = [
+export const GalleryDetails: { imageSource: string, objectPosition: string, referenceObject: string }[] = [
     {
         imageSource: "/images/senior_planting.webp",
         objectPosition: "40% 50%",
@@ -82,5 +82,28 @@ export const GalleryDetails: { imageSource, objectPosition, referenceObject: str
         imageSource: "/images/the_flowers.webp",
         objectPosition: "50% 50%",
         referenceObject: "THE_FLOWERS"        
+    }
+];
+
+export const SubjectDetails: { labelSubject: string, iconSource: any, subjectDescription: string }[] = [
+    {
+        labelSubject: "Programming",
+        iconSource: CodeIcon,
+        subjectDescription: "วิชาการเขียนโปรแกรมที่ทุกคนต้องลองเพราะเป็นสิ่งที่จําเป็นมากในโลกอนาคต",
+    },
+    {
+        labelSubject: "Microcontroller",
+        iconSource: ChipIcon,
+        subjectDescription: "วิชาการเขียนโปรแกรมบนไมโครคอนโทรลเลอร์ที่ทําให้เราสามารถสร้างสรรค์ได้ทุกสิ่ง",
+    },
+    {
+        labelSubject: "Editor",
+        iconSource: FilmIcon,
+        subjectDescription: "วิชาการตัดต่อภาพและวีดีโอเพื่อความสามารถในการสร้างสรรค์ภาพที่มีจินตนาการของเรา",
+    },
+    {
+        labelSubject: "Networking",
+        iconSource: ServerIcon,
+        subjectDescription: "วิชาระบบเครือข่ายทางดิจิตัลเพื่อเตรียมความพร้อมในการแก้ปัญหาระบบเครือข่ายที่เกิดปัญหา",
     }
 ];

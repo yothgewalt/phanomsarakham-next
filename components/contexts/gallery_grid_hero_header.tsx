@@ -16,7 +16,7 @@ type Props = {
     referenceObject: string
 };
 
-const Grid: React.FunctionComponent<Props> = ({ imageSource, objectPosition, referenceObject }) => {
+const GalleryGrid: React.FunctionComponent<Props> = ({ imageSource, objectPosition, referenceObject }) => {
     let objectStyles = "";
     switch (referenceObject) {
         case "SENIOR_PLANTING":
@@ -45,12 +45,13 @@ const Grid: React.FunctionComponent<Props> = ({ imageSource, objectPosition, ref
     return (
         <div className={classNames(
             "relative w-full rounded-md overflow-hidden hover:opacity-80 bg-gray-100",
-            "transition duration-200 ease-in-out",
+            "flex justify-center items-center transition duration-200 ease-in-out",
             objectStyles
         )}>
-            <Image src={imageSource} layout="fill" objectFit="cover" objectPosition={objectPosition} />
+            <h1 className="font-ibm-plex-sans-thai font-bold animate-pulse z-0 text-xs text-gray-600">กําลังดาวน์โหลด</h1>
+            <Image src={imageSource} className="z-10" layout="fill" objectFit="cover" objectPosition={objectPosition} />
         </div>
     );
 };
 
-export default Grid;
+export default GalleryGrid;
