@@ -8,7 +8,7 @@ const OpenhouseAnnoucer: React.FunctionComponent<{}> = (props) => {
             <div className="h-full container mx-auto px-6">
                 <div className="w-full h-full grid grid-cols-1 xl:grid-col-2 grid-flow-col justify-items-cente place-items-center gap-0 xl:gap-10">
                     <div className="flex flex-col justify-center items-center xl:items-start text-gray-900">
-                        <h2 className="font-medium text-sm xx:text-base xs:text-lg sm:text-xl md:text-2xl text-indigo-500">Openhouse — 2020</h2>
+                        <h2 className="font-medium text-sm xx:text-base xs:text-lg sm:text-xl md:text-2xl text-indigo-500">Openhouse — @Present</h2>
                         <h1 className="mt-5 font-ibm-plex-sans-thai font-bold text-base xx:text-lg xs:text-xl sm:text-2xl md:text-3xl xl:text-4xl xxl:text-5xl">กิจกรรมเปิดบ้าน ณ วิทยาลัยเทคนิคพนมสารคาม</h1>
                         <span className="w-[320px] xx:w-[380px] xs:w-[500px] font-ibm-plex-sans-thai font-medium text-gray-500">
                             <p className="text-center xl:text-left my-8 text-xs xx:text-sm xs:text-base sm:text-lg md:text-2xl">
