@@ -1,10 +1,10 @@
 import classNames from "../utils/classNames";
 
 enum Subject {
-    PROGRAMMING = "bg-[#3a9ad4]",
-    MICROCONTROLLER = "bg-[#ef5b4c]",
-    EDITOR = "bg-[#efc336]",
-    NETWORKING = "bg-[#55bd7f]"
+    PROGRAMMING = "bg-[#4f58df]",
+    MICROCONTROLLER = "bg-[#65376a]",
+    EDITOR = "bg-[#ff671a]",
+    NETWORKING = "bg-[#ffa928]"
 }
 
 type Props = {
