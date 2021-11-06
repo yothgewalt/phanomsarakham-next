@@ -30,7 +30,7 @@ const Header: React.FunctionComponent<{ publisher: string }> = (props) => {
                         {navlinksElements}
                     </nav>
                     <div className="flex flex-row flex-nowrap justify-between items-center">
-                        <a href="/" className="mr-3 text-gray-500 hover:text-black">Github?</a>
+                        <a href="https://github.com/einemutigeschlacht/phanomsarakham-next" className="mr-3 text-gray-500 hover:text-black">Github?</a>
                         <a href="https://www.facebook.com/PhanomsarakhamIT/" className={classNames(
                             "inline-flex items-center py-1 px-4 rounded-xl font-medium outline-none",
                             "transition duration-150 ease-in-out text-white bg-[#0099ff] hover:bg-opacity-60"

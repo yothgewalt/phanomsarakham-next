@@ -4,6 +4,7 @@ import SubjectCategory from "../components/environments/@landing_sections/subjec
 import OpenhouseAnnoucer from "../components/environments/@landing_sections/openhouse_annoucer";
 import GalleryViaHero from "../components/environments/@landing_sections/gallery_via_hero";
 import RegistrationAnnoucer from "../components/environments/@landing_sections/registration_announcer";
+import Googlemap from "../components/environments/@landing_sections/location_on_google_map";
 
 const Index: React.FunctionComponent<{}> = () => {
     return (
@@ -13,6 +14,7 @@ const Index: React.FunctionComponent<{}> = () => {
             <OpenhouseAnnoucer />
             <SubjectCategory />
             <RegistrationAnnoucer />
+            <Googlemap />
             <Footer />
         </main>
     );
