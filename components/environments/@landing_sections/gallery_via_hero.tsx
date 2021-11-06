@@ -15,7 +15,7 @@ const GalleryViaHero: React.FunctionComponent<{ title: string }> = ({ title }) =
                 <div className="mt-32 grid grid-cols-1 grid-flow-row gap-3 justify-items-center">
                     <h1 className={classNames(
                         "h-[10px] xs:h-[35px] sm:h-[40px] md:h-[70px] font-bold text-lg xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl",
-                        "text-center text-[#824cc6]",
+                        "text-center text-pink-400",
                         "inline-flex items-center"
                     )}>{title}</h1>
                     <h2 className={classNames(
